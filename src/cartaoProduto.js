@@ -7,7 +7,7 @@ export function renderizarCatalogo() {
       produto.feminino ? "feminino" : "masculino"
     } shadow-xl shadow-slate-700 rounded-lg" id="card-produto-${produto.id}">
             <img
-            src="assets/img/${produto.imagem}.jpg"
+            src="./assets/img/${produto.imagem}.jpg"
             alt="${produto.nome}"
             class="group-hover:scale-110 duration-300 my-3 rounded-lg"
             />
